@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    min-height: 100%;
+}
+.navbar-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 80px;
+
+}
+.logo img{
+    height: 35px; ;
+}
+.list{
+    display: flex;
+    flex: 2;
+    list-style: none;
+}
+.list li{
+    padding: 18px;
+    font-size: 25px;
+    font-weight: 400;
+}
+.button-group{
+    display: flex;
+}
+.search-icon svg{
+    /* height: 30px; */
+    padding: 6px;
+}
+.nav-button{
+    height: 40px;
+    width: 140px;
+    border-radius: 13px;
+    font-size: 20px;
+    background-color: transparent;
+}
+.hero-container{
+    display: flex;
+}
+.square{
+    position:absolute;
+    bottom: 0;
+    left: 220px;
+
+}
+.star{
+
+    position:absolute ;
+    right: 80px;
+
+}
+.globe{   
+    position:absolute ;
+    left: 50%;
+}
+.hero{
+    position:relative;
+    bottom: 0px;
+    left: 80px;
+}
+.hero img{
+    height: 600px;
+} 
+.hero-container-right{
+   padding: 200px;
+}
+.hero-heading{
+    font-size: 70px;
+    justify-content: space-between;
+}
+.hero-description{
+   padding: 80px;
+   text-align: center;
+   
+}
+.lastbts{
+    margin-left: 25%;
+}
+.button-email{
+    height: 35px;
+    width: 200px;
+    border-radius: 13px;
+    font-size: 20px;
+    background-color: transparent;
+}
+.button-join{
+    height: 35px;
+    width: 140px;
+    border-radius: 13px;
+    font-size: 20px;
+    background-color: #000;
+    color: #fff;
+}
+.contact-heading{
+    margin-top: 50px;
+    margin-left: 45%;
+    font-size: 20px;
+}
+.icons{
+    margin-left: 40%;
+    margin-top: 10px;
+}
